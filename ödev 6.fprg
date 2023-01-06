@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-26 01:43:33 &#214;S"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTAtMjY7MDE6Mjc6NDMgw5ZTOzM3MDg="/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTAtMjY7MDE6NDM6MzMgw5ZTOzc7MzgxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="h, t, x, v0, vx, vy, v" type="Real" array="False" size=""/>
+            <output expression="&quot;Cismin yerden y&#252;ksekli&#287;ini giriniz: &quot;" newline="True"/>
+            <input variable="h"/>
+            <output expression="&quot;Cismin ilk h&#305;z&#305;n&#305; giriniz: &quot;" newline="True"/>
+            <input variable="v0"/>
+            <assign variable="t" expression="(h/5)^(1/2)"/>
+            <assign variable="x" expression="v0*t"/>
+            <assign variable="vx" expression="v0*(1)"/>
+            <assign variable="vy" expression="10*(t)"/>
+            <assign variable="v" expression="((vx)^(2)+(vy)^(2))^(1/2)"/>
+            <output expression="x" newline="True"/>
+            <output expression="v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

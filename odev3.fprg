@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#246;zge turan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-26 07:32:33 &#214;&#214;"/>
+        <attribute name="created" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTAtMjY7MDc6MDM6MTIgw5bDljszODM1"/>
+        <attribute name="edited" value="w7Z6Z2UgdHVyYW47T1pHRU5JTkJJTEdJU0FZOzIwMjItMTAtMjY7MDc6MzI6MzMgw5bDljsxOzM5NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="c" expression="((((a+b)/(a^2+b^2)^4))/((a*b)/(1+1/(a+1/(b+(a*(b^2))^(2/5))))))^(1/3)+((a^2+b^3)/((a*b)/(a^2)+(b^2)+2*a*b)+3*a^2-3*b^2)-(a^(3/4))/(2/b^(2/3))"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
