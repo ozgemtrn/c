@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* dýkdortgen alan cevre hesabý */
+
+int main() 
+{ 
+	float kenar,alan,cevre;
+ printf("dýkdortgenýn kenarýný gýrýnýz;");
+	scanf("%f",&kenar);
+ cevre=kenar*4;
+ alan=kenar*kenar;
+ printf("alan = %f",alan);
+ printf("cevre= %f",cevre);
+ 
+	return 0;
+}
